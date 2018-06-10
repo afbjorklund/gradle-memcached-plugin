@@ -1,0 +1,13 @@
+ext {
+    gradlePluginReleaseVersion  = "2.7.0"
+    spymemcachedVersion         = "2.12.3"
+    junitVersion                = "4.12"
+    spockVersion                = "1.0"
+}
+
+ext.libraries = [
+    gradleRelease       : "net.researchgate:gradle-release:$gradlePluginReleaseVersion",
+    spymemcached        : "net.spy:spymemcached:$spymemcachedVersion",
+    junit               : "junit:junit:$junitVersion",
+    spockCore           : "org.spockframework:spock-core:$spockVersion-groovy-2.4@jar"
+]
