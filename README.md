@@ -20,7 +20,7 @@ buildscript {
   }
 }
 
-apply plugin: "com.github.afbjorklund.gradle.caching.memcached.MemcachedPlugin"
+apply plugin: "com.github.afbjorklund.gradle.caching.memcached"
 
 buildCache {
   // Note: the local cache is disabled by default when applying the plugin
